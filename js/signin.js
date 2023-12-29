@@ -7,11 +7,11 @@ var passLog=document.getElementById("passLog");
 
 var btnLogg =document.getElementById("btnLogg");
 var alertt=document.getElementById("alert-vip");  
-
-var collection=[]
+var signUp=document.getElementById("signUp");
+var collection=[];
 
 if(localStorage.getItem("collects")!=null){
-    collection=JSON.parse(localStorage.getItem("collects") )
+    collection=JSON.parse(localStorage.getItem("collects") );
     }
 
 function checkLogIn(){
@@ -44,3 +44,8 @@ btnLogg.addEventListener("click" , function(e){
 })
 
 
+signUp.addEventListener("click" , function(){
+
+window.location="./index.html"
+
+})
