@@ -1,0 +1,15 @@
+
+
+body{
+    background-image: url(../imag/6310507.jpg);
+    background-position: center;
+    background-size: cover;
+}
+a{
+
+    text-decoration: none;
+}
+.card-vip{
+    
+    background-color:rgba(75, 75, 252, 0.7)
+}
